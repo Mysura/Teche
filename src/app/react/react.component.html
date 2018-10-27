@@ -1,0 +1,26 @@
+<div class="container" style="margin-top:35px" id="topicSidebar">
+  <div class="row">
+    <div class="col-lg-2 col-md-6 verticalBar">
+      <div class="service-box mt-5 mx-auto">
+        <h5> React Tutorials</h5>
+        <ul class="subMenu list-unstyled">
+          <li><a class="linkTopic" [routerLink]="Angular"> sub topic</a></li>
+          <li><a class="linkTopic" href="#">sub topic1</a></li>
+        </ul>
+        <br>
+      </div>
+    </div>
+    <div class="col-lg-8 col-md-6">
+      <div class="service-box mt-5 mx-auto">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-6">
+      <div class="service-box mt-5 mx-auto">
+        <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+      </div>
+    </div>
+   
+    
+  </div>
+</div>

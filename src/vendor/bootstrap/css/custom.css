@@ -1,0 +1,23 @@
+.linkTopic{
+color :#212529;
+text-decoration: none !important
+}
+.verticalBar{
+border-right: 1px solid #ccc;
+}
+
+li a.active {
+  color: #f05f40;
+  border-radius: 1px;
+}
+.linkTopic{
+color :#212529;
+text-decoration: none !important
+}
+h5{
+font-weight: bold;
+color: #2F4F4F;
+}
+ul{
+    margin-left: 15px;
+}
